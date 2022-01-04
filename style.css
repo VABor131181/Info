@@ -1,0 +1,83 @@
+body {
+  background-color: #f1f1f1;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+h2,
+h1 {
+  text-align: center;
+}
+.abr {
+  color: grey;
+}
+.info {
+  display: flex;
+  padding: 15px;
+}
+.information {
+  margin-left: 40px;
+}
+.info p {
+  margin: 7px;
+}
+.info img {
+  width: 180px;
+  border-radius: 33px;
+  box-shadow: 5px 5px 15px grey;
+}
+.container {
+  padding-top: 40px;
+  max-width: 750px;
+  margin: auto;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px gray;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.table th {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.contacts img {
+  width: 75px;
+  border-radius: 50px;
+}
+.table-time {
+  width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.table-v {
+  color: red;
+}
+.contacts-show:hover {
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  background-color: rgb(54, 144, 247);
+  box-shadow: 5px 5px 15px rgb(54, 144, 247);
+  transition: 0.5s;
+  transform-origin: 100% 0;
+}
